@@ -1,0 +1,25 @@
+namespace semana5_Actividad3_EduardoMoran;
+    class Actividad3
+{
+    static void Main(String[] args)
+    {
+        double A, B; 
+            Console.WriteLine("Ingresar Variable 1"); 
+            A= Convert.ToDouble(Console.ReadLine()); 
+            Console.WriteLine("Ingresar Variable 2"); 
+            B= Convert.ToDouble(Console.ReadLine());
+
+            if (A>B)
+            { 
+                Console.WriteLine("Verdadero");
+            }
+            else if (A==B)
+            {
+                Console.WriteLine("Las variables son iguales");
+            }
+            else
+            { 
+                Console.WriteLine("Falso");
+            }
+    }
+}
